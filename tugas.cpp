@@ -31,4 +31,7 @@ int main() {
     double berat, tinggi, bmi;
 
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
+
+    // Memanggil prosedur input
+    inputData(berat, tinggi);
 }
