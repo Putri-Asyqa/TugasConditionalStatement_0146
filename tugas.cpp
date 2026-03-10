@@ -43,4 +43,6 @@ int main() {
     cout << "--- Hasil ---" << endl;
     cout << "BMI Anda : " << fixed << setprecision(4) << bmi << endl;
     cout << "Status   : " << statusBMI(bmi) << endl;
+
+       return 0;
 }
