@@ -37,4 +37,10 @@ int main() {
 
      // Memanggil fungsi hitung BMI
     bmi = hitungBMI(berat, tinggi);
+
+      // Output hasil
+    cout << endl;
+    cout << "--- Hasil ---" << endl;
+    cout << "BMI Anda : " << fixed << setprecision(4) << bmi << endl;
+    cout << "Status   : " << statusBMI(bmi) << endl;
 }
