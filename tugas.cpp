@@ -26,3 +26,9 @@ string statusBMI(double bmi) {
     else
         return "Obesitas";
 }
+
+int main() {
+    double berat, tinggi, bmi;
+
+    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
+}
